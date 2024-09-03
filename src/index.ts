@@ -1,7 +1,13 @@
-import { Logger } from "./Logger";
+import { Logger } from "./Logger.js";
 
-const logger = new Logger();
+const run = async () => {
+  try {
+    // run your code here
+    const logger = new Logger();
+    logger.info("Hello");
+  } catch (e) {
+    console.log(e);
+  }
+};
 
-for (let i = 0; i < 5; i++) {
-  logger.info(`Hello, world! ${i}`);
-}
+run();

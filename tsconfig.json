@@ -3,6 +3,9 @@
     // Treat files as modules even if it doesn't use import/export
     "moduleDetection": "force",
 
+    // Add types for eslint
+    "types": ["eslint"],
+
     // Ignore module structure
     "module": "Preserve",
 

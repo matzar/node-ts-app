@@ -19,7 +19,11 @@
     "esModuleInterop": true,
 
     // Disallow features that require cross-file awareness
-    "isolatedModules": true
+    "isolatedModules": true,
+
+    // Set target to ES2022 to support Promises and async/await
+    "target": "es2024",
+    "lib": ["ES2024", "DOM"]
   },
   "include": ["src/**/*.ts"]
 }
